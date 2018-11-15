@@ -590,7 +590,7 @@ paths:
               error:
                 $ref: '#/definitions/errorResponse'
       deprecated: false
-  '/testw':
+  '/test':
     get:
       summary: 'Greets you with Hello'
       tags:
