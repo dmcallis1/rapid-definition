@@ -590,9 +590,9 @@ paths:
               error:
                 $ref: '#/definitions/errorResponse'
       deprecated: false
-  '/test-duncan':
+  '/test':
     get:
-      summary: 'Greets you with Hello'
+      summary: 'Greets you with Hello Duncan'
       tags:
         - test
       operationId: test.printHello
