@@ -590,7 +590,7 @@ paths:
               error:
                 $ref: '#/definitions/errorResponse'
       deprecated: false
-  '/test':
+  '/test-john':
     get:
       summary: 'Greets you with Hello Duncan'
       tags:
@@ -598,7 +598,7 @@ paths:
       operationId: test.printHello
       responses:
         '200':
-          description: 'Greets with Hello, World! if everything went successfully'
+          description: 'Greets John with Hello, World! if everything went successfully'
           schema:
             type: object
             $ref: '#/definitions/testResponse'
