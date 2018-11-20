@@ -592,7 +592,7 @@ paths:
       deprecated: false
   '/test':
     get:
-      summary: 'Greets you with Hello Duncan'
+      summary: 'Greets you with Hello!'
       tags:
         - test
       operationId: test.printHello
