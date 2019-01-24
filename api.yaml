@@ -598,7 +598,7 @@ paths:
       operationId: test.printHello
       responses:
         '200':
-          description: 'Greets user with Hello, World! if everything went successfully'
+          description: 'Greets user with the message Hello, World! if everything went successfully'
           schema:
             type: object
             $ref: '#/definitions/testResponse'
